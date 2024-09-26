@@ -18,7 +18,7 @@ st.title("Marker Cluster")
 with st.expander("See source code"):
     with st.echo():
 
-        m = leafmap.Map(center=[37.55162945255474, -76.68277538321168], zoom=8, style="OpenStreetMap")
+        m = leafmap.Map(center=[37.55162945255474, -76.68277538321168], zoom=8, style="Satellite")
         cases = "cleaned_ccdb_st2.csv"
                 
         m.add_points_from_xy(
