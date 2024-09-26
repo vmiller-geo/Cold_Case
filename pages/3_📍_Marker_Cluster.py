@@ -28,7 +28,7 @@ with st.expander("See source code"):
             color_column="type",
             spin=True,
             add_legend=True,
-            legend_position='cneter-right'
+            legend_position='center-right'
         )
 
 m.to_streamlit(height=700)
