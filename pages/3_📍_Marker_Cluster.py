@@ -4,11 +4,11 @@ import leafmap.foliumap as leafmap
 st.set_page_config(layout="wide")
 
 markdown = """
-Marker Cluster represents This data is a compilation of 
-information from Virginia State Police investigators and local
-law enforcement used for soliciting tips on unsolved cases 
-throughout the Commonwealth on the Virginia Cold Case Database
-Source: (https://coldcase.vsp.virginia.gov/).
+Marker clusters represent information composed of Virginia 
+State Police investigators and local law enforcement used 
+for soliciting tips on unsolved cases throughout the 
+Commonwealth on the Virginia Cold Case Database
+Source: (https://coldcase.vsp.virginia.gov/) - Date: 09/06/2024
 ****The page was created from a Streamlit map template
 <https://github.com/opengeos/streamlit-map-template>
 """
