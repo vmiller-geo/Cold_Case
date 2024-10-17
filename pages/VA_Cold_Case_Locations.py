@@ -20,16 +20,16 @@ st.sidebar.image(logo)
 
 st.title("Virginia Cold Case Public Database 1961 to 2023")
 
-       m = leafmap.Map(center=[37.55162945255474, -76.68277538321168], zoom=8, google_map="HYBRID")
+m = leafmap.Map(center=[37.55162945255474, -76.68277538321168], zoom=8, google_map="HYBRID")
         cases = "cleaned_ccdb_st2.csv"
                 
-       m.add_points_from_xy(
+m.add_points_from_xy(
             cases,
             x="Lon",
             y="Lat",
             color_column="type",
             spin=True,
             add_legend=True,            
-        )
+       )
 
 m.to_streamlit(height=700)
