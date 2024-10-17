@@ -18,7 +18,7 @@ st.sidebar.info(markdown)
 logo = "https://i.imgur.com/UbOXYAU.png"
 st.sidebar.image(logo)
 
-st.title("Marker Cluster")
+st.title("Virginia Cold Case Database")
 
 with st.expander("See source code"):
     with st.echo():
