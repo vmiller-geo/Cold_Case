@@ -11,7 +11,7 @@ A Streamlit map template
 
 st.sidebar.title("About")
 st.sidebar.info(markdown)
-logo = "VM_academic_use.png"
+logo = "VM_academic_use2.png"
 st.sidebar.image(logo)
 
 # Customize page title
