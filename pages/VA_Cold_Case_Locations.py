@@ -15,7 +15,7 @@ Source: (https://coldcase.vsp.virginia.gov/) - Upadate Date: 09/06/2024
 
 st.sidebar.title("About")
 st.sidebar.info(markdown)
-logo = "psu.png"
+logo = "PSU1.png"
 st.sidebar.image(logo)
 
 st.title("Virginia Cold Case Public Database 1961 to 2023")
