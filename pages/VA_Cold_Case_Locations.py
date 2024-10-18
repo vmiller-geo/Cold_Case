@@ -8,14 +8,14 @@ Marker clusters represent information composed of Virginia
 State Police investigators and local law enforcement used 
 for soliciting tips on unsolved cases throughout the 
 Commonwealth on the Virginia Cold Case Database
-Source: (https://coldcase.vsp.virginia.gov/) - Date: 09/06/2024
+Source: (https://coldcase.vsp.virginia.gov/) - Upadate Date: 09/06/2024
 ****The page was created from a Streamlit map template
 <https://github.com/opengeos/streamlit-map-template>
 """
 
 st.sidebar.title("About")
 st.sidebar.info(markdown)
-logo = "https://i.imgur.com/UbOXYAU.png"
+logo = "psu.png"
 st.sidebar.image(logo)
 
 st.title("Virginia Cold Case Public Database 1961 to 2023")
